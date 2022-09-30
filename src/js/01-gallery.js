@@ -40,4 +40,4 @@ function onImageClick(evt) {
   evt.preventDefault();
 }
 
-console.log(SimpleLightbox);
+console.log('SimpleLightbox');
