@@ -90,7 +90,9 @@ function onImput() {
   };
   localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(objectToSave));
 }
+
 form.addEventListener('submit', onSubmit);
+
 function onSubmit(e) {
   e.preventDefault();
   console.log({
